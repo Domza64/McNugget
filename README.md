@@ -1,6 +1,7 @@
 # McNugget
-Adds Chicken McNuggets to Minecraft
 
-![Logo](src/main/java/resources/assets/icon.png)
+![title](src/main/resources/assets/mcnugget/icon.png)
+
+Adds Chicken McNuggets to Minecraft
 
 Also... Big Chicken Boss....
