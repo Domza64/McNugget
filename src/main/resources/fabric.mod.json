@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "mcnugget",
+  "version": "${version}",
+
+  "name": "McNugget",
+  "description": "Mod this adds Mc Chuckun Nooggget",
+  "authors": [
+    "Domza64"
+  ],
+  "contact": {
+    "sources": "https://github.com/Domza64/Mcnugget"
+  },
+
+  "license": "GPL-3.0 License",
+  "icon": "assets/mcnugget/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mc.nugget.McNugget"
+    ]
+  },
+  "mixins": [
+    "mcnugget.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
